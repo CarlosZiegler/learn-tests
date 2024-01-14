@@ -8,7 +8,11 @@
 		"rules": {
 			"recommended": true,
 			"style": {
-				"noParameterAssign": "off"
+				"noNonNullAssertion": "warn"
+			},
+
+			"a11y": {
+				"useButtonType": "warn"
 			}
 		}
 	}
