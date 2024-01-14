@@ -6,7 +6,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "eslint . --max-warnings 0"
+		"lint": "pnpm dlx @biomejs/biome check --apply ./app"
 	},
 	"dependencies": {
 		"next": "^14.0.4",
@@ -14,13 +14,11 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@next/eslint-plugin-next": "^14.0.4",
 		"@repo/typescript-config": "workspace:*",
-		"@types/eslint": "^8.56.1",
+		"@repo/biome-config": "workspace:*",
 		"@types/node": "^20.10.6",
 		"@types/react": "^18.2.46",
 		"@types/react-dom": "^18.2.18",
-		"eslint": "^8.56.0",
 		"typescript": "^5.3.3"
 	}
 }

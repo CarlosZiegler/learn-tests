@@ -5,11 +5,11 @@
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"lint": "turbo lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+		"format": "pnpm dlx @biomejs/biome format --write ."
 	},
 	"devDependencies": {
 		"@repo/typescript-config": "workspace:*",
-		"prettier": "^3.1.1",
+		"@repo/biome-config": "workspace:*",
 		"turbo": "latest"
 	},
 	"packageManager": "pnpm@8.9.0",
