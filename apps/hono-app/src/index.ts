@@ -7,6 +7,8 @@ app.get("/", (c) => {
 	return c.text("Hello Hono!");
 });
 
+console.log("Starting server...");
+
 const port = 3000;
 console.log(`Server is running on port ${port}`);
 
