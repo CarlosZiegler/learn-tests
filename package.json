@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"@repo/typescript-config": "workspace:*",
-		"@repo/biome-config": "workspace:*",
+		"@biomejs/biome": "1.5.1",
 		"turbo": "latest"
 	},
 	"packageManager": "pnpm@8.9.0",
