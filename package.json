@@ -5,7 +5,8 @@
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"lint": "turbo lint",
-		"format": "pnpm dlx @biomejs/biome format --write ."
+		"format": "pnpm dlx @biomejs/biome format --write .",
+		"postinstall": "lefthook install"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.5.1",

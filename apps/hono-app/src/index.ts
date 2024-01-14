@@ -6,9 +6,7 @@ const app = new Hono();
 app.get("/", (c) => {
 	return c.text("Hello Hono!");
 });
-
-console.log("Starting server...");
-
+console.log(app.routes);
 const port = 3000;
 console.log(`Server is running on port ${port}`);
 
