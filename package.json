@@ -6,6 +6,7 @@
 		"dev": "turbo dev",
 		"lint": "turbo lint",
 		"format": "pnpm dlx @biomejs/biome format --write .",
+		"commit": "pnpm dlx better-commits",
 		"postinstall": "lefthook install"
 	},
 	"devDependencies": {
